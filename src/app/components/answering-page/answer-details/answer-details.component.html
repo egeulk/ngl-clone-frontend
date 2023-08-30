@@ -1,0 +1,19 @@
+<body>
+    <span (click)="goBack()" class="material-icons top-left-arrow"> arrow_back_ios_new</span>
+    <div class="container">
+      <div class="card-template"></div>
+      <div [hidden]="selectedOption!=='Rainbow'">
+        <input type="color" [(ngModel)]="selectedColorOne" (change)="rainbowChange()">
+        <input type="color" [(ngModel)]="selectedColorTwo" (change)="rainbowChange()">
+      </div> 
+      <div class="radio-buttons">
+        <div *ngFor="let option of animationOptions" class="radioOptions" >
+          <label>
+            <input (change)="radioClicked()"  type="radio" name="radioGroup" [value]="option" [(ngModel)]="selectedOption " />
+            {{ option }}
+          </label>
+        </div>
+      </div>
+      <button class="custom-button" (click)="buttonClicked()">Indir!</button>
+    </div>
+  </body>

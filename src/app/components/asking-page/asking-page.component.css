@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  min-height: 100vh;
+  background-color: #222;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: linear-gradient(45deg, #63b26c, #2fe7bc, #48d466);
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  padding-top: 20px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+textarea {
+  padding: 10px 20px;
+  border: 1px solid #666;
+  border-radius: 5px 0 0 5px;
+  font-size: 1rem;
+  outline: none;
+
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+  resize: none; /* Prevents users from resizing the textarea */
+  width: 80%;
+  height: 50%;
+  background-color: #f1f1f1; /* Optional background color */
+  
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #666;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  outline: none;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+
+/* Mobile-friendly styles */
+@media screen and (max-width: 768px) {
+
+  body {
+    padding-left: 5%; /* 5% space from the left */
+    padding-right: 5%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+  }
+
+  .form-container {
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 100%;
+    border-radius: 5px;
+    height: 150px;
+    align-content: start;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+
+  .form-container {
+    margin-left: 10%; /* 5% space from the left */
+    margin-right: 10%;
+  }
+}
+

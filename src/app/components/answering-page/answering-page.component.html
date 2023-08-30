@@ -1,0 +1,10 @@
+<body>
+  <div class="container">
+    <div class="grid" #questionlist infiniteScroll [infiniteScrollDistance]="2" [alwaysCallback]="true" [infiniteScrollThrottle]="50"       (scrolled)="onScroll()" [scrollWindow]="false">
+        <div class="envelope" [ngClass]="{ 'question-unread': !question.isRead, 'question-read' : question.isRead}" (click)="goToQuestionDetail(question)" *ngFor="let question of questions" >
+          <i [ngClass]="question.isRead ? 'bi-envelope-open-heart' : 'bi-envelope-heart'" class="bi letter"></i>
+
+        </div>
+      </div>
+  </div>
+</body>

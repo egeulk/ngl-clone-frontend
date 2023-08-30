@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  .container {    
+    background: linear-gradient(45deg, #63b26c, #2fe7bc, #48d466);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg, grey, #63b26c);
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    max-height: 850px; /* Set the maximum height for scrollable content */
+    overflow: auto;
+
+  }
+  
+  .envelope {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; 
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease-in-out;
+    max-width: 300px;
+  }
+
+  .letter{
+    font-size: 50px;
+    color: white;
+  }
+
+  .question-unread {
+    background: linear-gradient(90deg, #14dd56, #daeb16);
+  }
+
+  .question-read {
+    background: grey;
+  }
+  
+  .envelope:hover {
+    transform: translateY(-5px);
+  }
+  
+  .envelope p {
+    margin: 0;
+    padding: 5px;
+    color: #333333;
+  }
+  
+  /* Optional: Add some color accents */
+  .container {
+    background-color: #f5f5f5;
+  }
+  
+  .envelope:hover {
+    background-color: #fafafa;
+    border: 2px solid #d0d0d0;
+  }

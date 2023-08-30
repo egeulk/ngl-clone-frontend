@@ -1,0 +1,65 @@
+.horizontal-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    max-width: 400px;
+}
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(45deg, #63b26c, #2fe7bc, #48d466);
+    flex-grow: 1;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.padding10 {
+    padding-top: 120px;
+}
+
+p {
+    margin-top: 0px;
+    font-size: 1rem;
+}
+
+
+.white {
+    color: white;
+}
+
+.huge {
+   font-size: 160px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #666;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+    margin-top: 36px;
+  }
+
+.left-lean {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+button {
+    width: 100%;
+}
+}

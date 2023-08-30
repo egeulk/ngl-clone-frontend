@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'barbie'; /* Use a suitable name for your font */
+    src: url('./barbie.TTF') format('truetype');
+    /* Add more font formats and file paths if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }

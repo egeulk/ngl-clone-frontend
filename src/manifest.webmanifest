@@ -1,0 +1,17 @@
+{
+  "name": "nglCloneHer-Frontend",
+  "short_name": "nglCloneHer-Frontend",
+  "theme_color": "#1976d2",
+  "background_color": "#fafafa",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "assets/icons/icon750.png",
+      "sizes": "750x750",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}
