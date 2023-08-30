@@ -3,13 +3,16 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "node server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "heroku-postbuild": "ng build"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "~16.2.0",
+    "@angular/compiler-cli": "^16.2.2",
     "@angular/animations": "^16.2.2",
     "@angular/common": "^16.2.2",
     "@angular/compiler": "^16.2.2",
@@ -23,12 +26,18 @@
     "@stomp/ng2-stompjs": "^8.0.0",
     "@stomp/rx-stomp": "^2.0.0",
     "bootstrap-icons": "^1.10.5",
-    "html2canvas": "^1.4.1",
+    "express": "^4.18.2",
+"html2canvas": "^1.4.1",
     "ngx-infinite-scroll": "^16.0.0",
-    "rxjs": "~7.8.0",
+    "path": "^0.12.7",
+"rxjs": "~7.8.0",
     "stompjs": "^2.3.3",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.1"
+  },
+  "engines": {
+    "node": "18.13.0",
+    "npm": "8.19.3"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.0",
@@ -36,6 +45,7 @@
     "@angular/compiler-cli": "^16.2.2",
     "@types/dom-to-image": "^2.6.4",
     "@types/jasmine": "~4.3.0",
+"enhanced-resolve": "^3.3.0",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
