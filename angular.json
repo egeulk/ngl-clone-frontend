@@ -26,11 +26,7 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/styles.css",
-              "src/fonts/Famig.css",
-              "src/fonts/barbie.css",
-              "src/fonts/SHREK.css",
-              "src/fonts/Spongeboy.css"
+              "src/styles.css"
             ],
             "scripts": [],
             "serviceWorker": true,
@@ -103,11 +99,8 @@
               "src/manifest.webmanifest"
             ],
             "styles": [
-              "src/styles.css",
-              "src/fonts/Famig.css",
-              "src/fonts/barbie.css",
-              "src/fonts/SHREK.css",
-              "src/fonts/Spongeboy.css"
+              "src/styles.css"
+
             ],
             "scripts": []
           }
