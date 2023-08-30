@@ -1,4 +1,34 @@
+@font-face {
+    font-family: 'barbie'; /* Use a suitable name for your font */
+    src: url('/assets/fonts/barbie.ttf') format('truetype');
+    /* Add more font formats and file paths if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
 
+  @font-face {
+    font-family: 'Famig'; /* Use a suitable name for your font */
+    src: url('/assets/fonts/Famig.TTF') format('truetype');
+    /* Add more font formats and file paths if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'shrek'; /* Use a suitable name for your font */
+    src: url('/assets/fonts/SHREK.TTF') format('truetype');
+    /* Add more font formats and file paths if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'spongeboy'; /* Use a suitable name for your font */
+    src: url('/assets/fonts/Spongeboy.otf') format('opentype');
+    /* Add more font formats and file paths if necessary */
+    font-weight: normal;
+    font-style: normal;
+  }
 
 .spongebob-card {
     background: url("../../../../assets/spongenight.jpeg");
