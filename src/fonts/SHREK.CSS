@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'shrek'; /* Use a suitable name for your font */
-    src: url('./SHREK.TTF') format('truetype');
+    src: url('/assets/fonts/SHREK.TTF') format('truetype');
     /* Add more font formats and file paths if necessary */
     font-weight: normal;
     font-style: normal;

@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Famig'; /* Use a suitable name for your font */
-    src: url('./Famig.TTF') format('truetype');
+    src: url('/assets/fonts/Famig.TTF') format('truetype');
     /* Add more font formats and file paths if necessary */
     font-weight: normal;
     font-style: normal;
