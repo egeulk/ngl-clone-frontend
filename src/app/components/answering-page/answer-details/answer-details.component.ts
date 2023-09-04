@@ -564,6 +564,6 @@ if(this.selectedOption === cardOptions.Rainbow) {
   }
 
   goBack() {
-    this.router.navigate(['/queen']);
+    this.router.navigate(['/dashboard']);
   }
 }

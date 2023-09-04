@@ -112,7 +112,7 @@ export class AnsweringPageComponent implements OnInit, OnDestroy {
     console.log("passign the:")
     console.log(question);
     this.questionService.goToDetails(question);
-    this.router.navigate(['/queen', question.id]);
+    this.router.navigate(['/dashboard', question.id]);
   }
 
 }

@@ -30,7 +30,7 @@ export class LoginPageComponent {
         console.log(jwtToken);
         console.log(response);
         localStorage.setItem('access_token', jwtToken);
-        this.router.navigate(['/queen']);
+        this.router.navigate(['/dashboard']);
         console.log('Login successful');
       },
       (error) => {

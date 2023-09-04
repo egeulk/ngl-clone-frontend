@@ -11,9 +11,9 @@ import { SuccesfulAskComponent } from './components/succesful-ask/succesful-ask.
 const routes: Routes = [
   { path: '', component: AskingPageComponent, canActivate: [authGuard]},
   { path: 'success', component: SuccesfulAskComponent },
-  { path: 'queen', component: AnsweringPageComponent, canActivate: [authGuard] },
+  { path: 'dashboard', component: AnsweringPageComponent, canActivate: [authGuard] },
   { path: 'login', component: LoginPageComponent, canActivate: [authGuard] },
-  { path: 'queen/:id', component: AnswerDetailsComponent, canActivate: [authGuard] },
+  { path: 'dashboard/:id', component: AnswerDetailsComponent, canActivate: [authGuard] },
   { path: '**', redirectTo: '' } // Redirect to the home page for unknown routes
 ];
 
