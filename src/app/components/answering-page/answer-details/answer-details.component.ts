@@ -58,6 +58,7 @@ if(this.selectedOption === cardOptions.Rainbow) {
   isInitialized = false;
   selectedColorOne: string = '#000000'; 
   selectedColorTwo: string = '#000000'; 
+  questionText : string = "Ask me anonynmous questions";
 
 
 
@@ -153,7 +154,7 @@ if(this.selectedOption === cardOptions.Rainbow) {
   greenMethod() {
     const topDiv = this.renderer.createElement('div');
     this.renderer.addClass(topDiv, 'topdiv');
-    const topText = this.renderer.createText('Bana anomim olarak mesajlar gonder');
+    const topText = this.renderer.createText(this.questionText);
     this.renderer.appendChild(topDiv, topText);
     
 
@@ -197,7 +198,7 @@ if(this.selectedOption === cardOptions.Rainbow) {
     this.renderer.setStyle(topDiv, 'justify-content', 'center'); // Center vertically
     this.renderer.setStyle(topDiv, 'align-items', 'center');
     this.renderer.setStyle(topDiv, 'box-shadow', '0px 2px 4px rgba(0, 0, 0, 0.2)');
-    const topText = this.renderer.createText('Bana anomim olarak mesajlar gonder');
+    const topText = this.renderer.createText(this.questionText);
     this.renderer.setStyle(topDiv, 'font-family', "'barbie'"); // Use the correct font-family name
     this.renderer.setStyle(topDiv, 'color', '#FFFFFF'); // Set the desired text color
     ////////font controls
@@ -285,7 +286,7 @@ if(this.selectedOption === cardOptions.Rainbow) {
     this.renderer.setStyle(topDiv, 'min-height', '100px');
     this.renderer.setStyle(topDiv, 'width', '100%');
     this.renderer.setStyle(topDiv, 'box-shadow', '0px 2px 4px rgba(0, 0, 0, 0.2)');
-    const topText = this.renderer.createText('bana anomim olarak mesajlar gonder');
+    const topText = this.renderer.createText(this.questionText);
     this.renderer.setStyle(topDiv, 'font-family', "'shrek', sans-serif"); // Use the correct font-family name
     this.renderer.setStyle(topDiv, 'color', '#FFFFFF'); // Set the desired text color
 
@@ -354,7 +355,7 @@ if(this.selectedOption === cardOptions.Rainbow) {
   rainbowMethod() {
     const topDiv = this.renderer.createElement('div');
     this.renderer.addClass(topDiv, 'topdiv');
-    const topText = this.renderer.createText('Bana anomim olarak mesajlar gonder');
+    const topText = this.renderer.createText(this.questionText);
     this.renderer.appendChild(topDiv, topText);
     this.renderer.setStyle(topDiv, 'background', 'linear-gradient(to right,'+this.selectedColorOne+','+this.selectedColorTwo+')');
     //background: linear-gradient(to right, #14dd56, #daeb16);
@@ -393,7 +394,7 @@ if(this.selectedOption === cardOptions.Rainbow) {
     
     const topDiv = this.renderer.createElement('div');
     this.renderer.addClass(topDiv, 'topdiv');
-    const topText = this.renderer.createText('Bana anomim olarak mesajlar gonder');
+    const topText = this.renderer.createText(this.questionText);
     this.renderer.appendChild(topDiv, topText);
     
 
@@ -431,7 +432,7 @@ if(this.selectedOption === cardOptions.Rainbow) {
     this.renderer.setStyle(topDiv, 'padding', '5px'); // Use the correct font-family name
   
 
-    const topText = this.renderer.createText('bana anomim olarak mesajlar gonder');
+    const topText = this.renderer.createText(this.questionText);
     this.renderer.appendChild(topDiv, topText);
     this.renderer.addClass(topDiv, 'w95-card'); //!!! burayi belki duzelt, global stil arial surekli override yapiyor
 
@@ -497,7 +498,7 @@ if(this.selectedOption === cardOptions.Rainbow) {
     this.renderer.setStyle(topDiv, 'min-height', '100px');
     this.renderer.setStyle(topDiv, 'width', '100%');
     this.renderer.setStyle(topDiv, 'box-shadow', '0px 2px 4px rgba(0, 0, 0, 0.2)');
-    const topText = this.renderer.createText('bana anomim olarak mesajlar gonder');
+    const topText = this.renderer.createText(this.questionText);
     this.renderer.setStyle(topDiv, 'font-family', "'Famig', sans-serif"); // Use the correct font-family name
     this.renderer.setStyle(topDiv, 'color', '#3498db'); // Set the desired text color
     ////////font controls

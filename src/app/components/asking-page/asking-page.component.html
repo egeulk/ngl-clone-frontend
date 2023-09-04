@@ -6,8 +6,8 @@
   <div class="container">
     <h1>NGL clone</h1>
     <p class="subtitle">"Made with open source software :)"</p>
-    <textarea  class="bubble-textarea" #questionTextArea placeholder="Sorunu yaz ve gondere bas!" [value]="questionInput"></textarea>
-    <button (click)="onPost(questionTextArea.value)">Gonder!</button>
+    <textarea  class="bubble-textarea" #questionTextArea placeholder="Ask your question here" [value]="questionInput"></textarea>
+    <button (click)="onPost(questionTextArea.value)">Send!</button>
   </div>
 </body>
 </html>
