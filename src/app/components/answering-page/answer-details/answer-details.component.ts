@@ -35,7 +35,7 @@ buttonClicked() {
     const downloadLink = document.createElement('a');
     downloadLink.href = dataURL;
     const currentTime = new Date();
-    downloadLink.download = 'nurscreenshot'+ currentTime.toLocaleString()  +'.png'; // Change the filename as needed
+    downloadLink.download = 'screenshot'+ currentTime.toLocaleString()  +'.png'; // Change the filename as needed
     downloadLink.click();
 
     //servise secili  stili kaydettir. stilKaydet(a);
@@ -197,7 +197,6 @@ if(this.selectedOption === cardOptions.Rainbow) {
     this.renderer.setStyle(topDiv, 'justify-content', 'center'); // Center vertically
     this.renderer.setStyle(topDiv, 'align-items', 'center');
     this.renderer.setStyle(topDiv, 'box-shadow', '0px 2px 4px rgba(0, 0, 0, 0.2)');
-    //const topText = this.renderer.createText("Nursima'ya anomim sormak icin NursimayaSor.com");
     const topText = this.renderer.createText('Bana anomim olarak mesajlar gonder');
     this.renderer.setStyle(topDiv, 'font-family', "'barbie'"); // Use the correct font-family name
     this.renderer.setStyle(topDiv, 'color', '#FFFFFF'); // Set the desired text color
@@ -286,7 +285,6 @@ if(this.selectedOption === cardOptions.Rainbow) {
     this.renderer.setStyle(topDiv, 'min-height', '100px');
     this.renderer.setStyle(topDiv, 'width', '100%');
     this.renderer.setStyle(topDiv, 'box-shadow', '0px 2px 4px rgba(0, 0, 0, 0.2)');
-    //const topText = this.renderer.createText("Nursima'ya anomim sormak icin NursimayaSor.com");
     const topText = this.renderer.createText('bana anomim olarak mesajlar gonder');
     this.renderer.setStyle(topDiv, 'font-family', "'shrek', sans-serif"); // Use the correct font-family name
     this.renderer.setStyle(topDiv, 'color', '#FFFFFF'); // Set the desired text color
@@ -499,7 +497,6 @@ if(this.selectedOption === cardOptions.Rainbow) {
     this.renderer.setStyle(topDiv, 'min-height', '100px');
     this.renderer.setStyle(topDiv, 'width', '100%');
     this.renderer.setStyle(topDiv, 'box-shadow', '0px 2px 4px rgba(0, 0, 0, 0.2)');
-    //const topText = this.renderer.createText("Nursima'ya anomim sormak icin NursimayaSor.com");
     const topText = this.renderer.createText('bana anomim olarak mesajlar gonder');
     this.renderer.setStyle(topDiv, 'font-family', "'Famig', sans-serif"); // Use the correct font-family name
     this.renderer.setStyle(topDiv, 'color', '#3498db'); // Set the desired text color
