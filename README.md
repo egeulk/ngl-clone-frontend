@@ -5,8 +5,15 @@ This is the frontend part of the ngl.link clone I've developed using Angular. Si
 -More Greenish interface, just because I prefer that color :)
 -Works on every platform due to nature of Angular unlike ngl.link
 -Various new templates, inspired by Windows 95 (which uses the css from one of my [projects](https://github.com/egeulk/angular-windows-95-pink)), Spongebob, Family Guy and a new one that can be customized by the colors users pick.
-![Windows 95](readme-images/templateTwo.png) ![Spongebob Template](readme-images/templateThree.png)
-![Family Guy](readme-images/templateOne.png) ![Rainbow Template](readme-images/templateFour.png)
+
+<table>
+  <tr>
+    <td><img src="readme-images/templateTwo.png" alt="Windows 95"></td>
+    <td><img src="readme-images/templateThree.png" alt="Spongebob Template"></td>
+    <td><img src="readme-images/templateOne.png" alt="Family Guy"></td>
+    <td><img src="readme-images/templateFour.png" alt="Rainbow Template"></td>
+  </tr>
+</table>
 
 -After downloading the generated image the service saves and remembers what template you've chosen, something that was lacking in ngl.link
 -For feature parity sake and to prove I could've do it, a replica of the green template from ngl.link
