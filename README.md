@@ -2,9 +2,14 @@
 This is the frontend part of the ngl.link clone I've developed using Angular. Since they're a startup and actually have multiple employees I thought about just how hard it'd be write it from scratch. You can see the backend part from [here](https://github.com/egeulk/ngl-clone-backend)
 
 ## Features
--More Greenish interface, just because I prefer that color :)
--Works on every platform due to nature of Angular unlike ngl.link
--Various new templates, inspired by Windows 95 (which uses the css from one of my [projects](https://github.com/egeulk/angular-windows-95-pink)), Spongebob, Family Guy and a new one that can be customized by the colors users pick.
+- More Greenish interface, just because I prefer that color :)
+  <tr>
+    <td><img src="readme-images/asking.png" alt="asking questions screen"></td>
+    <td><img src="readme-images/questionslist.png" alt="questions list screen"></td>
+  </tr>
+</table>
+- Works on every platform due to nature of Angular unlike ngl.link
+- Various new templates, inspired by Windows 95 (which uses the css from one of my [projects](https://github.com/egeulk/angular-windows-95-pink)), Spongebob, Family Guy and a new one that can be customized by the colors users pick.
 
 <table>
   <tr>
@@ -15,9 +20,9 @@ This is the frontend part of the ngl.link clone I've developed using Angular. Si
   </tr>
 </table>
 
--After downloading the generated image the service saves and remembers what template you've chosen, something that was lacking in ngl.link
--For feature parity sake and to prove I could've do it, a replica of the green template from ngl.link
--Authentication to view the dashboard, unlike ngl.link where everytime you download it there're no ways to login or sync the questions
+- After downloading the generated image the service saves and remembers what template you've chosen, something that was lacking in ngl.link
+- For feature parity sake and to prove I could've do it, a replica of the green template from ngl.link
+- Authentication to view the dashboard, unlike ngl.link where everytime you download it there're no ways to login or sync the questions
 
 # Running
 
