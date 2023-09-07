@@ -6,8 +6,8 @@ This is the frontend part of the ngl.link clone I've developed using Angular. Si
 
 <table>
   <tr>
-    <td><img src="readme-images/asking.png" alt="asking questions screen" width="200"></td>
-    <td><img src="readme-images/questionslist.png" alt="questions list screen" width="200"></td>
+    <td><img src="readme-images/asking.png" alt="asking questions screen" width="300"></td>
+    <td><img src="readme-images/questionslist.png" alt="questions list screen" width="300"></td>
   </tr>
 </table>
 
