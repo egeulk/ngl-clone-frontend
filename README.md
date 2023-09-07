@@ -1,27 +1,25 @@
-# NglCloneHerFrontend
+# NglClone Frontend
+This is the frontend part of the ngl.link clone I've developed using Angular. Since they're a startup and actually have multiple employees I thought about just how hard it'd be write it from scratch. You can see the backend part from [here](https://github.com/egeulk/ngl-clone-backend)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
+## Features
+-More Greenish interface, just because I prefer that color :)
+-Works on every platform due to nature of Angular unlike ngl.link
+-Various new templates, inspired by Windows 95 (which uses the css from one of my [projects](https://github.com/egeulk/angular-windows-95-pink)), Spongebob, Family Guy and a new one that can be customized by the colors users pick.
+![Windows 95](readme-images/templateTwo.png) ![Spongebob Template](readme-images/templateThree.png)
+![Family Guy](readme-images/templateOne.png) ![Rainbow Template](readme-images/templateFour.png)
 
-## Development server
+-After downloading the generated image the service saves and remembers what template you've chosen, something that was lacking in ngl.link
+-For feature parity sake and to prove I could've do it, a replica of the green template from ngl.link
+-Authentication to view the dashboard, unlike ngl.link where everytime you download it there're no ways to login or sync the questions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Running
 
-## Code scaffolding
+## Running on Local
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Before running, make sure you have the [backend](https://github.com/egeulk/ngl-clone-backend) installed and running.
+Run `ng serve --ssl` for a dev server. SSL is required since the messaging between frontend and backend uses WSS to communicate if there're any new messages to load. Navigate to `https://localhost:4200/`. Since it uses a self-signed SSL make sure you accept the warnings.
 
-## Build
+## Running on Heroku
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Before deploying make sure you've deployed the backend first and edit the environments/environments.prod.ts file to point to the URL containing the backend.
+The rest follows a similar fashion to deploying apps on Heroku. You can connect a Github repository and make it deploy every commit or install the Heroku CLI and push your changes to heroku. More detailed instructions are [here](https://devcenter.heroku.com/articles/git)
